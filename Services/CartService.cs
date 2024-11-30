@@ -26,7 +26,7 @@ public class CartService
 
         Console.WriteLine($"{quantity} x {product.Name} added to the cart.");
     }
-
+    public List<CartItem> GetCartItems() => _cart;
     public void ViewCart()
     {
         Console.WriteLine("\nYour Cart:");
