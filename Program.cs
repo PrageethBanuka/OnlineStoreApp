@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        // PopulateStoreDB.PopulateDatabase();
+        Console.Clear();
         var userService = new UserService();
         var productService = new ProductService();
         var cartService = new CartService();
@@ -22,7 +24,7 @@ class Program
         {
             var menuChoice = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
-                    .Title("[bold cyan]Select an [underline]option[/][/]:")
+                    .Title("\n[bold cyan]Select an [underline]option[/][/]:")
                     .PageSize(10)
                     .HighlightStyle(new Style(foreground: Color.Yellow))
                     .AddChoices("Register", "Login", "Exit")
@@ -40,7 +42,7 @@ class Program
                     }
                     break;
                 case "Exit":
-                    AnsiConsole.MarkupLine("[bold red]Thank you for visiting our store. Goodbye![/]");
+                    AnsiConsole.MarkupLine("\n[bold red]Thank you for visiting our store. Goodbye![/]👋🏻");
                     return;
             }
         }
@@ -160,7 +162,7 @@ class Program
 
             var dashboardChoice = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
-                    .Title("[bold cyan]Choose an action:[/]")
+                    .Title("\n[bold cyan]Choose an action:[/]")
                     .PageSize(10)
                     .HighlightStyle(new Style(foreground: Color.Yellow))
                     .AddChoices("View Products", "Add to Cart", "View Cart", "Logout")
