@@ -9,7 +9,8 @@
       "OnlineStoreApp/1.0.0": {
         "dependencies": {
           "Microsoft.Data.Sqlite": "9.0.0",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10"
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
+          "Spectre.Console": "0.49.1"
         },
         "runtime": {
           "OnlineStoreApp.dll": {}
@@ -30,6 +31,14 @@
           "lib/net8.0/Microsoft.Data.Sqlite.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52902"
+          }
+        }
+      },
+      "Spectre.Console/0.49.1": {
+        "runtime": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.49.1.0"
           }
         }
       },
@@ -198,6 +207,13 @@
       "sha512": "sha512-cFfZjFL+tqzGYw9lB31EkV1IWF5xRQNk2k+MQd+Cf86Gl6zTeAoiZIFw5sRB1Z8OxpEC7nu+nTDsLSjieBAPTw==",
       "path": "microsoft.data.sqlite.core/9.0.0",
       "hashPath": "microsoft.data.sqlite.core.9.0.0.nupkg.sha512"
+    },
+    "Spectre.Console/0.49.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USV+pdu49OJ3nCjxNuw1K9Zw/c1HCBbwbjXZp0EOn6wM99tFdAtN34KEBZUMyRuJuXlUMDqhd8Yq9obW2MslYA==",
+      "path": "spectre.console/0.49.1",
+      "hashPath": "spectre.console.0.49.1.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
       "type": "package",

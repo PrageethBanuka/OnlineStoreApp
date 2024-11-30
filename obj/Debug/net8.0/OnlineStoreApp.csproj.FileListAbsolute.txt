@@ -39,3 +39,5 @@
 /Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/obj/Debug/net8.0/OnlineStoreApp.pdb
 /Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/obj/Debug/net8.0/OnlineStoreApp.genruntimeconfig.cache
 /Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/obj/Debug/net8.0/ref/OnlineStoreApp.dll
+/Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/obj/Debug/net8.0/OnlineStoreApp.sourcelink.json
+/Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/bin/Debug/net8.0/Spectre.Console.dll

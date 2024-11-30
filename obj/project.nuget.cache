@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G6nbhYrOxhI=",
+  "dgSpecHash": "Kb/u+wPIr2s=",
   "success": true,
   "projectFilePath": "/Users/banukarajapaksha/Developer/dsa_project/git/OnlineStoreApp/OnlineStoreApp/OnlineStoreApp.csproj",
   "expectedPackageFiles": [
     "/Users/banukarajapaksha/.nuget/packages/microsoft.data.sqlite/9.0.0/microsoft.data.sqlite.9.0.0.nupkg.sha512",
     "/Users/banukarajapaksha/.nuget/packages/microsoft.data.sqlite.core/9.0.0/microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
+    "/Users/banukarajapaksha/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512",
     "/Users/banukarajapaksha/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "/Users/banukarajapaksha/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
     "/Users/banukarajapaksha/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
